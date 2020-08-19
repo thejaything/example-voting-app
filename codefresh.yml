@@ -21,7 +21,7 @@ steps:
     image: alpine
     stage: "Prepare Kubernetes Cluster"
     commands:
-      - cf_export KUBERNETES_CLUSTER_NAME=${{KUBERNETES_CLUSTER_NAME}} KUBERNETES_NAMESPACE=${{KUBERNETES_NAMESPACE}}
+      - cf_export KUBERNETES_CLUSTER_NAME=cluster-1 KUBERNETES_NAMESPACE=default
 
 # Create 'codefresh-demo' Kubernetes Namespace
 
