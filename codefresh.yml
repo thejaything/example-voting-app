@@ -12,7 +12,7 @@ steps:
   main_clone:
     title: Cloning main repository...
     type: git-clone
-    repo: '${{GITHUB_ORG}}/example-voting-app'
+    repo: 'thejaything/example-voting-app'
     git: github
 
 # Set Kubernetes Name Here
